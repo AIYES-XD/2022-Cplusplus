@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\4.1 封装">
+      <UniqueIdentifier>{5e463f71-2fa7-4217-b2c1-aa7c7e5dd661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4.2 对象的初始化和清理">
+      <UniqueIdentifier>{82da0e49-4bc7-4820-a80d-7ccf8816cb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4.3 C++对象模型和this指针">
+      <UniqueIdentifier>{a76842f0-5a5d-4168-839b-6311649b6657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4.4 友元">
+      <UniqueIdentifier>{a165e4ba-616a-45a0-9d2a-b777eb6d4f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4.5 运算符重载">
+      <UniqueIdentifier>{49bb4aa7-0b8b-4ccd-bcae-8bbd9bdaf384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4.6 继承">
+      <UniqueIdentifier>{751b1202-3833-40c9-9d4b-ff7b52e16d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4.7 多态">
+      <UniqueIdentifier>{652f8189-0344-42ae-afba-1dcb10ac5051}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02 封装案例.cpp">
+      <Filter>源文件\4.1 封装</Filter>
+    </ClCompile>
+    <ClCompile Include="测试.cpp">
+      <Filter>源文件\4.1 封装</Filter>
+    </ClCompile>
+    <ClCompile Include="05 成员属性设置为私有.cpp">
+      <Filter>源文件\4.1 封装</Filter>
+    </ClCompile>
+    <ClCompile Include="05-01 练习 立方体类.cpp">
+      <Filter>源文件\4.1 封装</Filter>
+    </ClCompile>
+    <ClCompile Include="04 struct和class的区别.cpp">
+      <Filter>源文件\4.1 封装</Filter>
+    </ClCompile>
+    <ClCompile Include="03 封装的权限控制.cpp">
+      <Filter>源文件\4.1 封装</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\01 构造函数和析构函数.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\02 构造函数的分类及调用.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\03 拷贝构造函数调用时机.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\04 构造函数调用规则.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\05 深浅拷贝.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\06 初始化列表.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\07 类对象作为类成员.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="..\4.2 对象的初始化和清理\08 静态成员.cpp">
+      <Filter>源文件\4.2 对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="01 成员变量和成员函数分开存储.cpp">
+      <Filter>源文件\4.3 C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="02 this指针.cpp">
+      <Filter>源文件\4.3 C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="03 空指针调用成员函数.cpp">
+      <Filter>源文件\4.3 C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="04 const修饰成员函数.cpp">
+      <Filter>源文件\4.3 C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="01 全局函数做友元.cpp">
+      <Filter>源文件\4.4 友元</Filter>
+    </ClCompile>
+    <ClCompile Include="类做友元.cpp">
+      <Filter>源文件\4.4 友元</Filter>
+    </ClCompile>
+    <ClCompile Include="成员函数做友元.cpp">
+      <Filter>源文件\4.4 友元</Filter>
+    </ClCompile>
+    <ClCompile Include="01 加号运算符重载.cpp">
+      <Filter>源文件\4.5 运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="02 左移运算符的重载.cpp">
+      <Filter>源文件\4.5 运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="03 递增运算符重载.cpp">
+      <Filter>源文件\4.5 运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="04 赋值运算符重载.cpp">
+      <Filter>源文件\4.5 运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="05 关系运算符重载.cpp">
+      <Filter>源文件\4.5 运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="06 函数调用运算符重载.cpp">
+      <Filter>源文件\4.5 运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="01 继承的基本语法.cpp">
+      <Filter>源文件\4.6 继承</Filter>
+    </ClCompile>
+    <ClCompile Include="03 继承中的对象模型.cpp">
+      <Filter>源文件\4.6 继承</Filter>
+    </ClCompile>
+    <ClCompile Include="04 继承中的构造和析构顺序.cpp">
+      <Filter>源文件\4.6 继承</Filter>
+    </ClCompile>
+    <ClCompile Include="05 继承同名成员处理方式.cpp">
+      <Filter>源文件\4.6 继承</Filter>
+    </ClCompile>
+    <ClCompile Include="07 多继承语法.cpp">
+      <Filter>源文件\4.6 继承</Filter>
+    </ClCompile>
+    <ClCompile Include="08 菱形继承.cpp">
+      <Filter>源文件\4.6 继承</Filter>
+    </ClCompile>
+    <ClCompile Include="01 多态的基本概念.cpp">
+      <Filter>源文件\4.7 多态</Filter>
+    </ClCompile>
+    <ClCompile Include="03 纯虚函数和抽象类.cpp">
+      <Filter>源文件\4.7 多态</Filter>
+    </ClCompile>
+    <ClCompile Include="04 多态案例二 制作饮品.cpp">
+      <Filter>源文件\4.7 多态</Filter>
+    </ClCompile>
+    <ClCompile Include="05 虚析构和纯虚析构.cpp">
+      <Filter>源文件\4.7 多态</Filter>
+    </ClCompile>
+    <ClCompile Include="06 电脑组装.cpp">
+      <Filter>源文件\4.7 多态</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
